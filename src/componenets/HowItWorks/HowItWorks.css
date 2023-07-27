@@ -1,0 +1,57 @@
+.HIW-Center {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 500;
+  letter-spacing: 2px;
+  font-size: 1rem;
+  background: -webkit-linear-gradient(#3551a4, #2d88c3, #31cdb0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 70px;
+}
+
+.HIW-head1 {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 500;
+  letter-spacing: 2px;
+  font-size: 2rem;
+  background: -webkit-linear-gradient(#3551a4, #2d88c3, #31cdb0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hiw-container {
+  width: 100%;
+  display: flex;
+  padding: 0 100px;
+}
+
+.HIW-li {
+  color: #fff;
+  margin: 20px;
+  opacity: 0.7;
+}
+
+.x-section {
+  width: 70%;
+  display: flex;
+
+  align-items: center;
+  gap: 50px;
+  margin-top: 30px;
+}
+
+.content-1 {
+  text-align: left;
+  width: 40%;
+}
+
+.hiw-container:nth-of-type(odd) {
+  justify-content: flex-end;
+}
+
+.hiw-container:nth-of-type(odd) .x-section {
+  flex-direction: row-reverse;
+}
+.hiw-container:nth-of-type(even) .x-section {
+  justify-content: flex-start;
+}

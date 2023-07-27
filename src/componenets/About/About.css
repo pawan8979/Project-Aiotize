@@ -1,0 +1,52 @@
+.A-Container {
+  width: 80%;
+  text-align: center;
+  margin-left: 10%;
+}
+
+.A-Container h1 {
+  font-weight: 300;
+  letter-spacing: 2px;
+  font-size: 3rem;
+  background: -webkit-linear-gradient(#3551a4, #2d88c3, #31cdb0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 50px 0;
+}
+
+.A-Container p {
+  font-family: "Work Sans", sans-serif;
+  letter-spacing: 2px;
+  text-align: justify;
+  color: white !important;
+  font-weight: 100;
+  text-align: center;
+  opacity: 0.6;
+}
+.sections {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.sections li {
+  margin-top: 30px;
+  letter-spacing: 2px;
+  text-align: justify;
+  color: white !important;
+  opacity: 0.6;
+}
+
+.sections img {
+  margin: 30px 0 20px 0;
+}
+
+.section-1 {
+  text-align: left;
+  width: 45%;
+}
+
+.section-2 {
+  text-align: left;
+  width: 45%;
+}

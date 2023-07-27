@@ -1,0 +1,14 @@
+.nav {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 160px;
+  gap: 50px;
+  justify-content: flex-start;
+}
+
+.nav img {
+  height: 100px;
+  cursor: pointer;
+}
